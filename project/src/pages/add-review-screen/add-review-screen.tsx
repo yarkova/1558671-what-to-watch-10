@@ -12,7 +12,7 @@ function AddReviewScreen() {
 
        <header className="page-header">
          <div className="logo">
-           <Logo />
+           <Logo light={false}/>
          </div>
 
          <nav className="breadcrumbs">

@@ -1,3 +1,5 @@
+export const FIRST_FILM_STEP = 0;
+
 export enum AppRoute {
   Main = '/',
   SignIn = '/login',

@@ -1,4 +1,10 @@
-function PlayerScreen() {
+import {Films} from '../../types/films';
+
+type PlayerScreenProps = {
+  films: Films;
+}
+
+function PlayerScreen({films}: PlayerScreenProps) {
   return (
     <div className="player">
       <video src="#" className="player__video" poster="img/player-poster.jpg"></video>
@@ -32,7 +38,7 @@ function PlayerScreen() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default PlayerScreen;
